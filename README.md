@@ -1,6 +1,19 @@
 # ColorChangeOnFaceDetctionPythonOpenCV
 choose random color of rectangle at every iteration using #python #openCV #FaceDetection #haarcascades  
 
+
+#### Before running this program please do these steps
+1. Install these Python Libraries
+    * opencv-python (pip install opencv-python)
+    * numpy (pip install numpy)
+    * time
+    * ramdom
+    * math
+
+2. Download this file and put this file in current workspace folder (in same directory with this python code )
+#download the 'haarcascade_frontalface_default.xml' file from here link->https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml
+
+
 #### if you get this error => 'TypeError: Scalar value for argument 'color' is not numeric' 
 this error is because rectangle function takes native python datatypes but np array creates datatype of its own type like :
 * numpy.float32 ,
@@ -17,3 +30,4 @@ this error is because rectangle function takes native python datatypes but np ar
 a = (123,234,12)
 
 # To close the camera window press x 
+ 
